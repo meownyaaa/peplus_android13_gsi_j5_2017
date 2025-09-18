@@ -18,7 +18,7 @@ If you choose to use another vendor, the lock screen will cause a crash when it 
 
 [PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases) (Choose the bgS-slim_XXXXXXXX.img.xz GSI, I have not tested the bgN GSI)
 
-[Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541)
+[Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541) ---------- [3.5GB system version](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/releases/download/1/universal7870_repartitioner_3.5gb_system.zip)
 
 [Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
 
@@ -31,6 +31,7 @@ These people have helped this project in some way or another, so they should be 
 - [Peter Cai](https://github.com/PeterCxy)
 - [haridhayal11](https://github.com/haridhayal11)
 - [Iceows](https://github.com/Iceows)
-- [X-Rom](https://xdaforums.com/t/rom-s-j5-2017-j6-xrom-oneui-4.4612785)
+- [X-Rom for vendor](https://xdaforums.com/t/rom-s-j5-2017-j6-xrom-oneui-4.4612785)
 - [Project_Spaget X for vendor creator](https://xdaforums.com/t/treble-arm64-aosp-j701x-project_spaget-x.3953463)
-- [ChonDoit](https://github.com/ChonDoit)
+- [ChonDoit for GSI](https://github.com/ChonDoit)
+- [7870 Telegram group for downloads](https://t.me/j7_7870)
