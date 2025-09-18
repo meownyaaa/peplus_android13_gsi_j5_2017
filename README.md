@@ -2,6 +2,8 @@
 
 You need a vendor partition before starting. Check the downloads for the creator.
 
+You also need a custom recovery, duh. Check downloads.
+
 You must NOT set a screen lock in setup, it will cause it to crash loop. 
 If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
 
@@ -9,6 +11,18 @@ The brightness will be broken because of X-Rom vendor, you can semi fix this by 
 (to be made)
 
 If you choose to use another vendor, the lock screen will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data.
+
+# HALF ASSED TUTORIAL IM LAZY TODAY
+
+Boot into TWRP, push the vendor creator to /sdcard, flash the vendor creator.
+
+Reboot back into TWRP, push the resizer of choice, flash and follow the instructions it gives you (Change filesystem in advanced wipe if unable to wipe normally, and use format data instead of advanced wipe)
+
+Push the kernel and vendor to /sdcard, flash both zips.
+
+Push the gsi to /sdcard, press "Install image" and select it, select System to be flashed to. If it doesn't appear, reboot into recovery again.
+
+
 
 # Downloads
 
@@ -22,7 +36,7 @@ If you choose to use another vendor, the lock screen will cause a crash when it 
 
 [Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
 
-[TWRP for 7870](https://t.me/j7_7870/189741)
+[TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/releases/download/2/FLASH.TO.AP.tar)
 
 ## Credits
 These people have helped this project in some way or another, so they should be the ones who receive all the credit:
