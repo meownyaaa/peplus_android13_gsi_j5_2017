@@ -26,7 +26,7 @@ Reboot back into TWRP, push the resizer of choice, flash and follow the instruct
 
 Push the kernel and vendor to /sdcard, flash both zips.
 
-Push the gsi to /sdcard, press "Install image" and select it, select System to be flashed to. If the GSI image doesn't appear, reboot into recovery again.
+Extract the .img from the .img.xz you downloaded and push it to /sdcard, press "Install image" and select it, select System to be flashed to. If the GSI image doesn't appear, reboot into recovery again.
 
 After that, wipe Internal storage to get rid of the files so you don't have to in Android.
 
