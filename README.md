@@ -22,6 +22,8 @@ If you choose to use another vendor, the lock screen will cause a crash when it 
 
 [Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
 
+[TWRP for 7870](https://t.me/j7_7870/189741)
+
 ## Credits
 These people have helped this project in some way or another, so they should be the ones who receive all the credit:
 - [phhusson](https://github.com/phhusson)
