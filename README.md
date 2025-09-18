@@ -24,7 +24,7 @@ Push the gsi to /sdcard, press "Install image" and select it, select System to b
 
 After that, wipe Internal storage to get rid of the files so you don't have to in Android.
 
-[Also, remember the note(s).](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/edit/13/README.md#you-must-not-set-a-screen-lock-in-setup-it-will-cause-it-to-crash-loop--if-you-have-set-one-by-accident-adb-is-enabled-by-default-connect-your-device-to-another-device-that-can-access-adb-and-run-adb-shell-am-start--a-androidsettingssettings-then-disable-the-screen-lock-in-security)
+**[Also, remember the notes.](#you-must-not-set-a-screen-lock-in-setup-it-will-cause-it-to-crash-loop)**
 
 # Downloads
 
