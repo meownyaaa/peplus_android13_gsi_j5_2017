@@ -1,25 +1,10 @@
-# Notes and bugs
+# Notes
+
+### [Bugs](#bugs)
 
 ### You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
 
 ### You also need a custom recovery, duh. Check [downloads](#downloads).
-
-
-### You must NOT set a screen lock in setup, it will cause it to crash loop.
-If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
-
-
-### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the video;
-(to be made)
-
-
-### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
-
-
-### Always-on display does not work properly if you force it to be enabled in the settings.
-
-
-### Wi-Fi will disable itself every reboot, this is the vendors fault.
 
 
 ### It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
@@ -57,6 +42,25 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 [Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
 
 [TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/releases/download/2/FLASH.TO.AP.tar)
+
+# Bugs
+
+### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the video;
+(to be made)
+
+
+### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
+
+
+### Always-on display does not work properly if you force it to be enabled in the settings.
+
+
+### Wi-Fi will disable itself every reboot, this is the vendors fault.
+
+
+### You must NOT set a screen lock in setup, it will cause it to crash loop.
+If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
+
 
 ## Credits
 These people have helped this project in some way or another, so they should be the ones who receive all the credit:
