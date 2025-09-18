@@ -24,7 +24,7 @@ Push the gsi to /sdcard, press "Install image" and select it, select System to b
 
 After that, wipe Internal storage to get rid of the files so you don't have to in Android.
 
-**[Also, remember the notes.](#you-must-not-set-a-screen-lock-in-setup-it-will-cause-it-to-crash-loop)**
+**[Also, remember the notes. Do not set a screen lock in setup.](#you-must-not-set-a-screen-lock-in-setup-it-will-cause-it-to-crash-loop)**
 
 # Downloads
 
