@@ -3,7 +3,7 @@
 You need a vendor partition before starting. Check the downloads for the creator.
 
 You must NOT set a screen lock in setup, it will cause it to crash loop. 
-If you have set one by accident, adb is enabled by default. Run `adb shell am start -a android.settings.SETTINGS` and disable the screen lock in security.
+If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
 
 The brightness will be broken because of X-Rom vendor, you can semi fix this by following the video;
 (to be made)
