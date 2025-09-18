@@ -10,7 +10,7 @@
 ### It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
 
 
-### Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk.
+### Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
 
 
 ### System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole fucking gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
@@ -38,7 +38,7 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 
 [Vendors for J5 2017/J6 2018 (Telegram channel)](https://t.me/j7_7870/158695)
 
-[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases) (Choose the bgS-slim_XXXXXXXX.img.xz GSI, I have not tested the bgN GSI)
+[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases) (Choose the PE-Plus_A13-arm64-bgS-slim_XXXXXXXX.img.xz if you want dynamic superuser, bgN-slim if you dont)
 
 [Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541) ---------- [3.5GB system version](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/releases/download/1/universal7870_repartitioner_3.5gb_system.zip)
 
