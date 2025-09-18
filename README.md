@@ -38,7 +38,7 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 
 [Vendors for J5 2017/J6 2018 (Telegram channel)](https://t.me/j7_7870/158695)
 
-[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases) (Choose the PE-Plus_A13-arm64-bgS-slim_XXXXXXXX.img.xz if you want dynamic superuser, bgN-slim if you dont)
+[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases)<br>(Choose the PE-Plus_A13-arm64-bgS-slim_XXXXXXXX.img.xz if you want dynamic superuser, bgN-slim if you dont)
 
 [Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541) ---------- [3.5GB system version](https://github.com/meownyaaa/peplus_j5_2017_j6_2018/releases/download/1/universal7870_repartitioner_3.5gb_system.zip)
 
