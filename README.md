@@ -1,16 +1,32 @@
-# Notes
+# Notes and bugs
 
 ### You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
 
 ### You also need a custom recovery, duh. Check [downloads](#downloads).
 
+
 ### You must NOT set a screen lock in setup, it will cause it to crash loop.
 If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
+
 
 ### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the video;
 (to be made)
 
+
+### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
+
+
+### Always-on display does not work properly if you force it to be enabled in the settings.
+
+
+### Wi-Fi will disable itself every reboot, this is the vendors fault.
+
+
 ### It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
+
+
+### Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk.
+
 
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
 
