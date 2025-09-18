@@ -10,6 +10,8 @@ If you have set one by accident, adb is enabled by default. Connect your device 
 ### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the video;
 (to be made)
 
+### It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
+
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
 
 # HALF ASSED TUTORIAL IM LAZY TODAY
