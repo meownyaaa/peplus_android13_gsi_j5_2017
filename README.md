@@ -1,8 +1,8 @@
 # Notes
 
-### You need a vendor partition before starting. Check the downloads for the creator.
+### You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
 
-### You also need a custom recovery, duh. Check downloads.
+### You also need a custom recovery, duh. Check [downloads](#downloads).
 
 ### You must NOT set a screen lock in setup, it will cause it to crash loop.
 If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
