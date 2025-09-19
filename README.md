@@ -59,7 +59,9 @@ https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
 ### Always-on display does not work properly if you force it to be enabled in the settings.
 
 
-### Wi-Fi will disable itself every reboot, this is the vendors fault.
+### ~~Wi-Fi will disable itself every reboot, this is the vendors fault.~~
+### [v20250915](https://github.com/ChonDoit/treble_peplus_patches/releases/tag/v20250915) seems to fix this issue, somehow. Real witch shit, I won't question it.
+
 
 
 ### You must NOT set a screen lock in setup, it will cause it to crash loop.
