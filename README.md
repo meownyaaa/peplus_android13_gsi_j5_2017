@@ -61,7 +61,8 @@ v20250915 and possibly after
 https://github.com/user-attachments/assets/47c9eb24-0951-4db6-9fbd-bff427e148d9
 
 
-### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
+### ~~Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor.~~ Fingerprint works fine, though.
+### Hardware navigation buttons DO work if you force on screen navigation buttons disabled in Treble Settings, but you'll have to remap recents as it is not mapped to recents at all “TV_AUDIO_DESCRIPTION_MIX_DOWN”
 
 
 ### Always-on display does not work properly if you force it to be enabled in the settings.
