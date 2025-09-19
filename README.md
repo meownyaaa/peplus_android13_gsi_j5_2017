@@ -23,9 +23,17 @@ Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl
 
 # Installation
 
+Download files from below, you'll need the resizer, Ares, the vendor, and the GSI.
+
+**If you have already got a system partition that is 3.5GB or larger, and a vendor, you will not need the resizer or creator.**
+
+-------------------- 
+
 Boot into TWRP, push the vendor creator to /sdcard, flash the vendor creator.
 
 Reboot back into TWRP, push the resizer of choice, flash and follow the instructions it gives you (Change filesystem in advanced wipe if unable to wipe normally, and use format data instead of advanced wipe)
+
+-------------------- 
 
 Push the kernel and vendor to /sdcard, flash both zips.
 
@@ -49,7 +57,13 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 
 [TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/2/FLASH.TO.AP.tar)
 
+
 # Bugs
+
+<details>
+
+
+<summary>bleh</summary>
 
 ### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the below video
 
@@ -81,7 +95,7 @@ If you have set one by accident, adb is enabled by default. Connect your device 
 ### MEETS_STRONG_INTEGRITY cannot pass. Probably to do with it being a GSI.
 <img width="180" height="320" alt="image" src="https://github.com/user-attachments/assets/0e27951e-93d3-41dd-9638-f012f2ff4c71" />
 
-
+ </details>
 
 ## Credits
 These people have helped this project in some way or another, so they should be the ones who receive all the credit:
