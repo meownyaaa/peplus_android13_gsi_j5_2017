@@ -9,19 +9,33 @@ You also need a custom recovery, duh. Check [downloads](#downloads).
 
 It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
 
+<details>
+ 
+<summary>Info</summary>
+
+<br>
 
 Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
 
 
 System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
 
+</details>
+
+<details>
+
+<summary>Fixes</summary>
+
+<br>
 
 Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl with **[this](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/3/Generic.kl)**, and enable "Force navigation bar disabled" in Treble Settings.
 
 
-You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range". You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
+You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range".<br>You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
 
-## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
+</details>
+
+## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data.
 
 # Installation
 
@@ -62,11 +76,7 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 
 # Bugs 
 
-### Brightness is broken with default settings, notes has a fix.
-
-
-### ~~Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor.~~ Fingerprint works fine, though.
-### Check notes.
+### Brightness is broken out of box, and so are hw navigation buttons. Check fixes in [notes](#notes).
 
 
 ### Always-on display does not work properly if you force it to be enabled in the settings.
