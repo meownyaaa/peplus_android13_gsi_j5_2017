@@ -1,19 +1,19 @@
 # Notes
 
-### [Bugs](#bugs)
+**[Bugs](#bugs)**
 
-### You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
+You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
 
-### You also need a custom recovery, duh. Check [downloads](#downloads).
-
-
-### It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
+You also need a custom recovery, duh. Check [downloads](#downloads).
 
 
-### Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
+It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
 
 
-### System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole fucking gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
+Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
+
+
+System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole fucking gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
 
 
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
@@ -59,8 +59,6 @@ https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
 v20250915 and possibly after
 
 https://github.com/user-attachments/assets/47c9eb24-0951-4db6-9fbd-bff427e148d9
-
-
 
 
 ### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
