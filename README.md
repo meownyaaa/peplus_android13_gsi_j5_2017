@@ -13,11 +13,13 @@ It will take a while for the boot animation to appear, your phone most likely ha
 Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
 
 
-System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole fucking gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
+System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
 
 
 Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl with **[this](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/3/Generic.kl)**, and enable "Force navigation bar disabled" in Treble Settings.
 
+
+You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range". You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
 
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
 
@@ -58,24 +60,9 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 [TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/2/FLASH.TO.AP.tar)
 
 
-# Bugs
+# Bugs 
 
-<details>
-
-
-<summary>bleh</summary>
-
-### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the below video
-
-Before v20250915
-
-https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
-
-<br>
-
-v20250915 and possibly after
-
-https://github.com/user-attachments/assets/47c9eb24-0951-4db6-9fbd-bff427e148d9
+### Brightness is broken with default settings, notes has a fix.
 
 
 ### ~~Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor.~~ Fingerprint works fine, though.
