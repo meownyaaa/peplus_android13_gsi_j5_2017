@@ -21,7 +21,7 @@ Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl
 
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
 
-# HALF ASSED TUTORIAL IM LAZY TODAY
+# Installation
 
 Boot into TWRP, push the vendor creator to /sdcard, flash the vendor creator.
 
