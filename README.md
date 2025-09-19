@@ -16,6 +16,9 @@ Set status bar top padding to 2, start padding to 30, and end padding to 0 to ma
 System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole fucking gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
 
 
+Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl with **[this](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/3/Generic.kl)**, and enable "Force navigation bar disabled" in Treble Settings.
+
+
 ## !!! If you choose to use another vendor, if you don't set lock screen to none, it will cause a crash when it loads after rebooting and you will be unable to use the phone until you format data. (Unverified)
 
 # HALF ASSED TUTORIAL IM LAZY TODAY
@@ -62,7 +65,7 @@ https://github.com/user-attachments/assets/47c9eb24-0951-4db6-9fbd-bff427e148d9
 
 
 ### ~~Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor.~~ Fingerprint works fine, though.
-### Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl with **[this](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/3/Generic.kl)**, and enable "Force navigation bar disabled" in Treble Settings.
+### Check notes.
 
 
 ### Always-on display does not work properly if you force it to be enabled in the settings.
