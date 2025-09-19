@@ -60,7 +60,7 @@ https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
 
 
 ### ~~Wi-Fi will disable itself every reboot, this is the vendors fault.~~
-### [v20250915](https://github.com/ChonDoit/treble_peplus_patches/releases/tag/v20250915) seems to fix this issue, somehow. Real witch shit, I won't question it.
+### [v20250915](https://github.com/ChonDoit/treble_peplus_patches/releases/tag/v20250915) seems to fix the Wi-Fi issue, somehow. Real witch shit, I won't question it.
 
 
 
