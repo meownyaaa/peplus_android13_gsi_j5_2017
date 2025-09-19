@@ -60,12 +60,16 @@ https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
 
 
 ### ~~Wi-Fi will disable itself every reboot, this is the vendors fault.~~
-### [v20250915](https://github.com/ChonDoit/treble_peplus_patches/releases/tag/v20250915) seems to fix the Wi-Fi issue, somehow. Real witch shit, I won't question it.
-
+### [v20250915](https://github.com/ChonDoit/treble_peplus_patches/releases/tag/v20250915) seems to fix the Wi-Fi issue, somehow. I won't question it.
 
 
 ### You must NOT set a screen lock in setup, it will cause it to crash loop.
 If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
+
+
+### MEETS_STRONG_INTEGRITY cannot pass. Probably to do with it being a GSI.
+<img width="180" height="320" alt="image" src="https://github.com/user-attachments/assets/0e27951e-93d3-41dd-9638-f012f2ff4c71" />
+
 
 
 ## Credits
