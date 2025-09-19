@@ -50,7 +50,17 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 
 ### The brightness will be broken because of X-Rom vendor, you can semi fix this by following the below video
 
+Before v20250915
+
 https://github.com/user-attachments/assets/32446cc9-a620-4cde-b8b1-ac4c1646550d
+
+<br>
+
+v20250915 and possibly after
+
+https://github.com/user-attachments/assets/47c9eb24-0951-4db6-9fbd-bff427e148d9
+
+
 
 
 ### Hardware navigation buttons (home button, capacitive recents and back) do not work, most likely because of the vendor. Fingerprint works fine, though.
