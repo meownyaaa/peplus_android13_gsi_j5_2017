@@ -95,7 +95,7 @@ After that, wipe Internal storage to get rid of the files so you don't have to i
 If you have set one by accident, adb is enabled by default. Connect your device to another device that can access adb and run `adb shell am start -a android.settings.SETTINGS`, then disable the screen lock in security.
 
 
-### This GSI (and most others) cannot pass MEET_STRONG_INTEGRITY.
+### This GSI (and most others) cannot pass MEETS_STRONG_INTEGRITY.
 
 <details>
 
