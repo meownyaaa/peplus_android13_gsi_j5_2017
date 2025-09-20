@@ -31,7 +31,10 @@ System UI will occasionally lag out and android will keep telling you it "isn't 
 Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl with **[this](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/3/Generic.kl)**, and enable "Force navigation bar disabled" in Treble Settings.
 
 
-You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range".<br>You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
+You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range".
+<br>
+
+You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
 
 </details>
 
