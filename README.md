@@ -18,6 +18,9 @@ It will take a while for the boot animation to appear, your phone most likely ha
 Set status bar top padding to 2, start padding to 30, and end padding to 0 to make it look even. You will need to enable dynamic superuser in Misc settings if you do not have Magisk/Dynamic Superuser.
 
 
+You can pass MEETS_BASIC_INTEGRITY and MEETS_DEVICE_INTEGRITY with no modules in v20250915 (prerelease gsi)
+
+
 System UI will occasionally lag out and android will keep telling you it "isn't responding", the not responding thing is a bug and google still has not fixed it even in Android 16 (good ol' google), but the lagging out is not as you're running Android 13 with pixel features on 2 whole gigabytes of RAM (assuming you didnt buy the 32gb J5 2017 which has 3GB RAM)
 
 </details>
@@ -34,7 +37,7 @@ Hardware navigation buttons work if you replace /system/usr/keylayout/Generic.kl
 You can fix brightness being broken by opening the Treble Settings app, going to Samsung Settings and enabling "Enable extended brightness range".
 <br>
 
-You may also have to enable Set alternative brightness curve and Set linear brightness curve if you use a build before v20250915
+You may also have to enable "Set alternative brightness curve" and "Set linear brightness curve" if you use a build before v20250915
 
 </details>
 
