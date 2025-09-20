@@ -90,7 +90,7 @@ If you have set one by accident, adb is enabled by default. Connect your device 
 
 
 ### This GSI (and most others) cannot pass MEET_STRONG_INTEGRITY.
-<img width="180" height="320" alt="image" src="https://github.com/user-attachments/assets/0e27951e-93d3-41dd-9638-f012f2ff4c71" />
+<img width="180" height="360" alt="image" src="https://github.com/user-attachments/assets/0e27951e-93d3-41dd-9638-f012f2ff4c71" />
 <img width="180" height="320" alt="image" src="https://files.catbox.moe/r4p8j0.png" />
 
  </details>
