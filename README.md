@@ -1,10 +1,28 @@
+# Downloads
+
+[Ares 7.0 (SIMPLE KERNEL V2)](https://drive.google.com/drive/folders/10eb8C9UY8tuZGcFGr_gHCcce6oDsxOwp)
+
+[Vendors for J5 2017/J6 2018 (Telegram channel)](https://t.me/j7_7870/158695)
+
+[androidfilehost X-Rom J5 2017 Vendor](https://androidfilehost.com/?fid=10620683726822064175) 
+
+[androidfilehost X-Rom J6 2018 Vendor](https://androidfilehost.com/?fid=10620683726822064177)
+
+[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases)<br>Choose the PE-Plus_A13-arm64-bgS-slim_XXXXXXXX.img.xz if you want dynamic superuser, bgN-slim if you dont
+
+[Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541) ---------- [3.5GB system version](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/1/universal7870_repartitioner_3.5gb_system.zip)
+
+[Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
+
+[TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/2/FLASH.TO.AP.tar)
+
 # Notes
 
 **[Bugs](#bugs)**
 
-You need a vendor partition before starting. Check the [downloads](#downloads) for the creator.
+You need a vendor partition before starting. Check the [downloads](#downloads) for the vendor creator.
 
-You also need a custom recovery, duh. Check [downloads](#downloads).
+You will also need a custom recovery.
 
 
 It will take a while for the boot animation to appear, your phone most likely hasn't crashed.
@@ -64,21 +82,6 @@ Extract the .img from the .img.xz you downloaded and push it to /sdcard, press "
 After that, wipe Internal storage to get rid of the files so you don't have to in Android.
 
 **[Also, remember the notes. Do not set a screen lock in setup.](#you-must-not-set-a-screen-lock-in-setup-it-will-cause-it-to-crash-loop)**
-
-# Downloads
-
-[Ares 7.0 (SIMPLE KERNEL V2)](https://drive.google.com/drive/folders/10eb8C9UY8tuZGcFGr_gHCcce6oDsxOwp)
-
-[Vendors for J5 2017/J6 2018 (Telegram channel)](https://t.me/j7_7870/158695)
-
-[PE Plus GSI](https://github.com/ChonDoit/treble_peplus_patches/releases)<br>Choose the PE-Plus_A13-arm64-bgS-slim_XXXXXXXX.img.xz if you want dynamic superuser, bgN-slim if you dont
-
-[Partition resizer](https://xdaforums.com/t/tool-7870-universal-repartition-script-for-vendor-support.4143541) ---------- [3.5GB system version](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/1/universal7870_repartitioner_3.5gb_system.zip)
-
-[Vendor creator (jXy17lte)](https://drive.google.com/drive/folders/1TfoongsPcP6JRL1pVoLbP9t3FYhnNZOr)
-
-[TWRP for 7870](https://t.me/j7_7870/189741) ---------- [J5 2017 Odin TAR](https://github.com/meownyaaa/peplus_android13_gsi_j5_2017/releases/download/2/FLASH.TO.AP.tar)
-
 
 # Bugs 
 
